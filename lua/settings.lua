@@ -19,4 +19,6 @@ vim.o.wildmode = "longest,list"
 vim.o.clipboard = "unnamedplus"
 vim.o.mouse = "a"
 vim.o.ttyfast = true
+vim.o.splitright = true
+vim.o.splitbelow = true
 
