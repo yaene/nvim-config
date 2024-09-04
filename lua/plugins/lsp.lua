@@ -62,11 +62,18 @@ return {
         capabilities = capabilities,
       })
 
-      -- cmake (build, CMakeLists.txt)
-      -- nvim_lsp.cmake.setup({
-      -- 	on_attach = on_attach,
-        -- capabilities = capabilities,
-      -- })
+      -- python
+      --
+      nvim_lsp.pyright.setup({
+        on_attach = on_attack,
+        capabilities = capabilities,
+      })
+
+       cmake (build, CMakeLists.txt)
+       nvim_lsp.cmake.setup({
+       	on_attach = on_attach,
+         capabilities = capabilities,
+       })
     end
   }
 }
