@@ -4,6 +4,9 @@ local M = {
 }
 
 M.config = function()
+  require("tokyonight").setup({
+    terminal_colors = false,
+  })
   vim.cmd("colorscheme tokyonight-storm")
 end
 
